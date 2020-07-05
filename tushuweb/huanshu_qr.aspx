@@ -6,6 +6,6 @@
     <asp:Label ID="l_id" runat="server" Text="Label" Visible="False"></asp:Label>
     <div>
         <asp:Button ID="Button1" runat="server" Text="确认归还" OnClick="Button1_Click" />
-        <a href="guihuan.aspx">返回归还图书</a>
+        <a href="huanshu.aspx">返回归还图书</a>
     </div>
 </asp:Content>

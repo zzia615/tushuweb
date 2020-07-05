@@ -63,6 +63,7 @@
       <DependentUpon>tushuweb.mdf</DependentUpon>
     </Content>
     <Content Include="MainSite.Master" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
