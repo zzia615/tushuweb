@@ -8,6 +8,16 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style>
+        html,body{
+            margin:0;
+            padding:0;
+        }
+
+        body{
+            background:#f1e8e8;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">

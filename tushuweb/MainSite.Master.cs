@@ -11,7 +11,10 @@ namespace tushuweb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (string.IsNullOrEmpty(Session["账号"].AsString()))
+            {
+                Response.Redirect("Login.aspx");
+            }
         }
     }
 }

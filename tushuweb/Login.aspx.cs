@@ -24,7 +24,7 @@ namespace tushuweb
 
                 string sql = "select * from denglu where zhanghao=N'" + zhanghao + "' and mima=N'" + mima + "'";
                 DataTable table = new SqlServerHelper().QuerySqlDataTable(sql);
-                if (table != null && table.Rows.Count >= 0)
+                if (table != null && table.Rows.Count > 0)
                 {
                     Session["账号"] = zhanghao;
                     Session["类别"] = table.Rows[0]["leibie"].AsString();
