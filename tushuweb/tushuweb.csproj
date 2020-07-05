@@ -58,6 +58,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\tushuweb.mdf" />
+    <Content Include="App_Data\tushuweb_log.ldf">
+      <DependentUpon>tushuweb.mdf</DependentUpon>
+    </Content>
     <Content Include="MainSite.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
